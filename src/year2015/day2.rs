@@ -30,4 +30,3 @@ pub fn parse_dimensions(line: &str) -> u32{
  let total: u32 = ribbon_length + bow_length;
  return total;
 }
-
