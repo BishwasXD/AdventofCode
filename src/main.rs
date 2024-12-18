@@ -8,6 +8,7 @@ pub mod year2015{
 pub mod year2024{
     pub mod day1;
     pub mod day2;
+    pub mod day3;
 }
 fn main() {
     println!("Hello, world!");
@@ -17,5 +18,6 @@ fn main() {
     //year2015::day4::coin_mining();
     //year2015::day5::intern_elves();
     //year2024::day1::find_historian();
-    year2024::day2::reports();
+   // year2024::day2::reports();
+   year2024::day3::fix_instruction();
 }
