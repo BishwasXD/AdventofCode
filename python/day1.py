@@ -12,7 +12,7 @@ def process_line(line):
             if dial_position == 0:
                 dial_position = 99
             else:
-                dial_position -= 1
+                dial_position -=  1
                 if dial_position == 0:
                     zero_count += 1
     elif rotation_direction == "R":
